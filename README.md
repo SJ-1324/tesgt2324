@@ -29,3 +29,23 @@ Once all test cases are exeuted successfull you can check console output from co
 ## Pre-requisites:
 #### -ShiningPanda jenkins plugin 
 
+
+### To Import Evernote build job:
+
+#### -Open Jenkins
+#### -Navigate to Dashboard
+#### -Click on Manage Jenkins
+#### -Click on jenkins CLI under tools and Actions
+#### -Download  jenkins-cli.jar
+#### -Open command line and navigate to jenkins-cli.jar download location
+#### -Copy and paste the Evernote build job xml to the same location as jenkins-cli.jar
+#### -execute below commands
+```
+java -jar jenkins-cli.jar -s http://server -auth username:password create-job NewjobName < Evernotejenkinsjob.xml
+```
+Once job is imported successfully, open job and click on config 
+#### Build -> Custom Python Builder -> Home
+#### Change directory path to you local machine python installation directory
+
+Save job and Click on Build Now
+
