@@ -49,3 +49,6 @@ Once job is imported successfully, open job and click on config
 
 Save job and Click on Build Now
 
+upon successful completion: compile output should look like below:
+
+
