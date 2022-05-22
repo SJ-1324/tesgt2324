@@ -25,9 +25,9 @@ python -m TestSuite
 ```
 Once all test cases are exeuted successfull you can check console output from command line and html reports generated from Evernote/reports
 
-## How to import jenkins job to build and execute automation tests?
+## How to import Jenkins job to build and execute automation tests?
 ## Pre-requisites:
-#### -ShiningPanda jenkins plugin 
+#### -ShiningPanda Jenkins plugin 
 
 
 ### To Import Evernote build job:
@@ -35,7 +35,7 @@ Once all test cases are exeuted successfull you can check console output from co
 #### -Open Jenkins
 #### -Navigate to Dashboard
 #### -Click on Manage Jenkins
-#### -Click on jenkins CLI under tools and Actions
+#### -Click on Jenkins CLI under tools and Actions
 #### -Download  jenkins-cli.jar
 #### -Open command line and navigate to jenkins-cli.jar download location
 #### -Copy and paste the Evernote build job xml to the same location as jenkins-cli.jar
