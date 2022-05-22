@@ -27,6 +27,5 @@ Once all test cases are exeuted successfull you can check console output from co
 
 ## How to import jenkins job to build and execute automation tests?
 ## Pre-requisites:
-#### -Firefox browser
-#### -Install required packages from requirement.txt
+#### -ShiningPanda jenkins plugin 
 
